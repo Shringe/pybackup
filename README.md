@@ -7,12 +7,12 @@ Set the paths that you want to be backed up inside `pybackup/__main__.py`. Optio
 
 It is recommended to run the following command to test the tool before running your first backup.
 ```
-./cli.sh --dryrun
+pybackup --dryrun
 ```
 
 # Usage
 ```
-./cli.sh --help
+pybackup --help
 ```
 
 # Installation
