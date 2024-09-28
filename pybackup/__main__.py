@@ -11,6 +11,9 @@ app = typer.Typer()
 def backupAll(
     backup_destination: Path = Path("~/pybackup/"), dryrun: bool = False
 ) -> None:
+    """
+    Add your files and directories to pybackup/__main__.py to start.
+    """
     paths: List[BackupPath] = [
         BackupPath(
             Path(path).expanduser(),
