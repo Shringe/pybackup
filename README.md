@@ -16,7 +16,13 @@ It is recommended to run the following command to test the tool before running y
 ```
 
 # Installation
-Installation instuctions inside `cli.sh`.
-```
-cat cli.sh
+```bash
+git clone https://github.com/Shringe/pybackup.git
+cd pybackup
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+ln -s ~/path/to/here/pybackup/cli.sh ~/.local/bin/pybackup
 ```
