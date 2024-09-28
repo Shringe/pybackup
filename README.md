@@ -20,9 +20,12 @@ It is recommended to run the following command to test the tool before running y
 git clone https://github.com/Shringe/pybackup.git
 cd pybackup
 
+# Installing dependencies
 python -m venv venv
 source venv/bin/activate
-
 pip install -r requirements.txt
+
+# Linking cli to $PATH <optional>
+chmod +x cli.sh
 ln -s ~/path/to/here/pybackup/cli.sh ~/.local/bin/pybackup
 ```
